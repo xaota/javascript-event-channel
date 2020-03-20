@@ -1,0 +1,33 @@
+{
+  "name": "javascript-event-channel",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "javascript event channel in node and browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaota/javascript-event-channel.git"
+  },
+  "keywords": [
+    "bus",
+    "pub/sub",
+    "javascript",
+    "browser",
+    "channel",
+    "events",
+    "es-module"
+  ],
+  "author": "https://github.com/xaota",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/xaota/javascript-event-channel/issues"
+  },
+  "homepage": "https://github.com/xaota/javascript-event-channel#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "babel-eslint": "^10.0.2"
+  }
+}
