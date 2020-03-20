@@ -6,7 +6,7 @@ $ npm install javascript-event-channel
 ```
 
 ### настройка в браузере
-Настройте в вашем сервере резолв с `node_modules/javascript-event-channel/browser.js` в `/javascript-event-channel`
+Настройте в вашем сервере резолв с `node_modules/javascript-event-channel` в `/javascript-event-channel`
 
 ```html
 <script type="importmap">
@@ -32,4 +32,17 @@ channel.send('event', 2);
 // output:
 // hello, 2
 // hello, 1
+```
+
+### Дополнительно
+Если вы используете vscode, можно настроить резолв для корректной работы самого редактора с помощью файла `jsconfig.json`
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "../node_modules/",
+    "paths": {
+      "javascript-event-channel/*": ["./javascript-event-channel/*"]
+    }
+  }
+}
 ```
